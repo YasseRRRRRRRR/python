@@ -29,6 +29,8 @@ class Heap:
             if self._heap[index] > self._heap[child_index]:
                 self._heap[index], self._heap[child_index] = self._heap[child_index], self._heap[index]  # Swap
             index = child_index
+    
+
 
 
 """
@@ -43,6 +45,7 @@ h._float()
 # Printing the updated heap after the floating operation
 
 """
+
 """
 h = Heap()
 h._heap = [8, 6, 5, 9, 7]
